@@ -11,7 +11,9 @@ SCRAMBLED WORD
 For example, the following is a valid scramble file with 3 scrambles of the word IRONY:
 
 RIONY IRONY
+
 ONYRI IRONY
+
 IRONY IRONY
 
 ## Test case file format
@@ -22,7 +24,9 @@ SCRAMBLED WORD CORRECT_SCORE
 For example, the following is a valid test case file with 3 scrambles of the word IRONY:
 
 RIONY IRONY FAIR
+
 ONYRI IRONY HARD
+
 IRONY IRONY NOT
 
 ## Execution
