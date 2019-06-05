@@ -1,7 +1,7 @@
 # word-scramble-score
 A simple scoring script which rates the difficulty of solving a word scramble implemented in Python 3.6.
 
-This script implements the word scramble scoring requirements outlined in `Word Scramble Test.pdf`.
+This script implements the word scramble scoring requirements outlined in the comments at the top of `word_scramble_score.py`.
 
 ## Word scramble file format
 Word scrambles must take the form:
@@ -35,7 +35,7 @@ A list of scrambled words and their unscrambled equivalent can be passed to the 
 python3 word_scramble_score.py < word_scramble_inputs.txt
 ```
 
-Output matches that specified in `Word Scramble Test.pdf`.
+Output matches that specified in `word_scramble_score.py`.
 
 The script will automatically detect if the input file contains test cases. To execute the provided test case file, simply run:
 ```
