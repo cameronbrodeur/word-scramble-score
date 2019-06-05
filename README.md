@@ -5,18 +5,22 @@ This script implements the word scramble scoring requirements outlined in `Word 
 
 ## Word scramble file format
 Word scrambles must take the form:
+
 SCRAMBLED WORD
   
 For example, the following is a valid scramble file with 3 scrambles of the word IRONY:
+
 RIONY IRONY
 ONYRI IRONY
 IRONY IRONY
 
 ## Test case file format
 The script implements a variation of the word scramble file format to enable the execution of test cases. Test cases must take the form:
+
 SCRAMBLED WORD CORRECT_SCORE
 
 For example, the following is a valid test case file with 3 scrambles of the word IRONY:
+
 RIONY IRONY FAIR
 ONYRI IRONY HARD
 IRONY IRONY NOT
